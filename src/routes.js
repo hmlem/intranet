@@ -1,17 +1,21 @@
 import React from 'react'
-import { Route, Switch, Redirect } from 'react-router-dom'
+import {
+  Route, Switch, Link,
+} from 'react-router-dom'
 // components
 import Login from './pages/login'
 import ForgetPass from './pages/forget-pass'
 import RecoveryPass from './pages/recovery-pass'
+import UserRegister from './pages/user-register'
+import Home from './pages/home'
 
 const Routes = () => (
   <Switch>
-    <Redirect exact from="/" to="/login" />
-    <Route exact path="/" component={() => <h1>Home</h1>} />
+    <Route exact path="/" component={Home} />
     <Route exact path="/login" component={Login} />
     <Route exact path="/forget-pass" component={ForgetPass} />
     <Route exact path="/recovery-pass" component={RecoveryPass} />
+    <Route exact path="/user-register" component={UserRegister} />
   </Switch>
 )
 
