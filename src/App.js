@@ -9,14 +9,12 @@ import { GlobalStyles } from './theme/styles.App'
 
 function App() {
   return (
-    <div>
-      <ThemeProvider theme={theme}>
-        <GlobalStyles />
-        <Router>
-          <Routes />
-        </Router>
-      </ThemeProvider>
-    </div>
+    <ThemeProvider theme={theme}>
+      <GlobalStyles />
+      <Router>
+        <Routes />
+      </Router>
+    </ThemeProvider>
   )
 }
 
