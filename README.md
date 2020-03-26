@@ -1,1 +1,1 @@
-# React Basics Boilerplate
+# React Auth/Login Boilerplate
