@@ -18,6 +18,7 @@
   },
   "plugins": ["react"],
   "rules": {
+    "no-unused-vars": "warn",
     "react/jsx-filename-extension": [
       "error",
       {
