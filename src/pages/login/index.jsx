@@ -1,58 +1,54 @@
-import React from 'react'
-import { Formik, Field, ErrorMessage } from 'formik'
-import * as Yup from 'yup'
+/* eslint-disable jsx-a11y/label-has-associated-control */
+import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
-import PropTypes from 'prop-types'
-import { Container } from './styles'
+import { Formik } from 'formik'
+import AppContext from '../../context'
+import { Form } from './styles'
+// components
+import Button from '../../components/button'
+import TextInput from '../../components/text-input'
 
-const login = ({ history }) => {
-  const SignupSchema = Yup.object().shape({
-    email: Yup.string()
-      .email('Invalid email')
-      .required('Required'),
-    pass: Yup.string()
-      .required('Required'),
-  })
+const Login = () => {
+  const context = useContext(AppContext);
 
   return (
-    <Container>
-      <h1>Login:</h1>
+    <>
+      <h1>Login</h1>
       <Formik
         initialValues={{ email: '', pass: '' }}
-        validationSchema={SignupSchema}
         onSubmit={(values, actions) => {
           setTimeout(() => {
             alert(JSON.stringify(values, null, 2))
             actions.setSubmitting(false)
-            history.push('/')
-          }, 1000)
+            context.setSigned(true)
+          }, 1000);
         }}
       >
-        {({ handleSubmit }) => (
-          <form onSubmit={handleSubmit}>
-            <Field
+        {() => (
+          <Form>
+            <TextInput
               type="email"
               name="email"
               placeholder="Email"
             />
-            <ErrorMessage name="email" />
-            <Field
+
+            <TextInput
               type="password"
               name="pass"
-              placeholder="Pass"
+              placeholder="Senha"
             />
-            <ErrorMessage name="pass" />
-            <button type="submit">Submit</button>
-          </form>
+
+            <Button type="submit">Submit</Button>
+
+            <Link to="/esqueci-minha-senha">Esqueci minha senha</Link>
+
+          </Form>
         )}
       </Formik>
-      <Link to="/forget-pass">Esqueci a senha</Link>
-    </Container>
+
+      <Link to="/">Não possui cadastro? Cadastrar</Link>
+    </>
   )
 }
 
-login.propTypes = {
-  history: PropTypes.objectOf(PropTypes.any).isRequired,
-};
-
-export default login
+export default Login
