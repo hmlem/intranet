@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
 
@@ -55,4 +55,4 @@ export const GlobalStyles = createGlobalStyle`
     transition: background-color 5000s ease-in-out 0s;
     font-size: unset;
   }
-`
+`;
