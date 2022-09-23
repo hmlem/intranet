@@ -6,6 +6,7 @@ import AppContext from "services/context";
 import Button from "components/Button";
 import TextInput from "components/TextInput";
 import { Formik } from "formik";
+import Page from "layouts/Page";
 import React, { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -14,7 +15,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   return (
-    <>
+    <Page>
       <h1>Login</h1>
       <Formik
         initialValues={{ email: "", pass: "" }}
@@ -41,7 +42,7 @@ const Login = () => {
       </Formik>
 
       <Link to="/">Não possui cadastro? Cadastrar</Link>
-    </>
+    </Page>
   );
 };
 

@@ -1,7 +1,7 @@
 import AppContext from "services/context";
 
+import theme from "theme";
 import { GlobalStyles } from "theme/styles.App";
-import { theme } from "theme/theme";
 
 import React, { useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";

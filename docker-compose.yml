@@ -1,0 +1,8 @@
+version: "3"
+services:
+  nginx:
+    container_name: hmlem_intranet_nginx
+    restart: always
+    build: .
+    ports:
+      - "${REACTAPP_PORT}:80"
