@@ -3,6 +3,7 @@ import styled from "styled-components";
 export default styled.header`
   width: 100vw;
   text-align: center;
+  margin-bottom: 40px;
 
   div {
     height: 80px;

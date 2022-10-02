@@ -2,12 +2,12 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
 
-    *{
+  * {
     margin: 0;
     padding: 0;
     font-family: 'Roboto Slab', serif;
-
   }
+
   html, body, #root{
     height: 100%;
     background: ${(props) => props.theme.white};
@@ -17,6 +17,27 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
     color: ${(props) => props.theme.black};
     font-weight: 900;
+    margin-bottom: 10px;
+  }
+
+  section{
+    margin-bottom: 20px;
+  }
+
+  p{
+    margin-bottom: 5px;
+  }
+
+  main ul{
+    margin: 20px auto;
+
+    li{
+      margin-bottom: 10px;
+    }
+  }
+
+  li.disabled{
+    color: #ccc;
   }
 
   a{

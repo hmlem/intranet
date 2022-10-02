@@ -21,6 +21,9 @@ export default () => {
           <li>
             <Link to="/protocolos">Fluxogramas/Protocolos</Link>
           </li>
+          <li>
+            <Link to="/checklists">Checklists</Link>
+          </li>
         </ul>
       </nav>
     </Header>

@@ -6,7 +6,7 @@ import AppContext from "services/context";
 import Button from "components/Button";
 import TextInput from "components/TextInput";
 import { Formik } from "formik";
-import Page from "layouts/Page";
+import Page from "layouts/OneColumn";
 import React, { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
