@@ -14,6 +14,7 @@ const news = [
         <p>Direção Clínica</p>
       </>
     ),
+    url: "https://forms.gle/BRyhQpKJNJH3H6GbA",
   },
   {
     title:
@@ -54,15 +55,7 @@ const news = [
         </p>
       </>
     ),
-  },
-  {
-    title: "Participação coletiva - Pensando em mudanças",
-    content: (
-      <p>
-        O que você gostaria de ver no hospital ou que mudasse em caso de uma
-        reforma estrutural? (Em breve pesquisa)
-      </p>
-    ),
+    url: "https://forms.gle/RL3Tp6kzB9oaJ1yz6",
   },
 ];
 

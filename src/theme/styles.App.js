@@ -29,7 +29,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   main ul{
-    margin: 20px auto;
+    margin: 20px;
 
     li{
       margin-bottom: 10px;

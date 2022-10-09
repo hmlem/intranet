@@ -7,6 +7,10 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: start;
+
+  iframe {
+    border: 1px solid #088e45;
+  }
 `;
 
 export const Main = styled.main`

@@ -4,7 +4,6 @@ import data from "./data";
 
 import TwoColumnLayout from "layouts/TwoColumns";
 import React, { useEffect, useState } from "react";
-import { Document, Page } from "react-pdf";
 
 export default () => {
   const [samplePDFUrl, setSamplePDFUrl] = useState(null);
@@ -32,12 +31,15 @@ export default () => {
                   <br />
                   {url ? (
                     <p>
-                      <button onClick={() => setSamplePDFUrl(url)}>
-                        Acessar ao lado
-                      </button>
-                      <a href={url} target="_blank" rel="noreferrer">
-                        Acessar link
-                      </a>
+                      {url.indexOf("http") > -1 ? (
+                        <a href={url} target="_blank" rel="noreferrer">
+                          Acessar link
+                        </a>
+                      ) : (
+                        <button onClick={() => setSamplePDFUrl(url)}>
+                          Acessar ao lado
+                        </button>
+                      )}
                     </p>
                   ) : (
                     ""
@@ -50,9 +52,14 @@ export default () => {
         </div>
       }
       secondColumn={
-        <Document file={samplePDFUrl}>
-          <Page pageNumber={1} />
-        </Document>
+        <div>
+          <iframe
+            title="pdf"
+            src={samplePDFUrl}
+            width="95%"
+            height="600px"
+          ></iframe>
+        </div>
       }
     />
   );

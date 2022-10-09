@@ -3,6 +3,7 @@ const baseUrlChecklists = `${process.env.PUBLIC_URL}/checklists`;
 export default [
   {
     title: "Checklist - Protocolo IAM",
+    url: `${baseUrlChecklists}/checklist_protocolo_iam.pdf`,
   },
   {
     title: "Checklist - Procedimentos padrão da Enfermagem",
