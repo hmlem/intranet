@@ -215,10 +215,23 @@ export default () => {
               Centro de Informação e Assistência Toxicológica da Bahia -
               CIATox-BA (antigo CIAVE): (71)3103-4303
             </li>
-            <li>Polícia Civil</li>
-            <li>Polícia Militar</li>
+            <li>Polícia Militar 75 99139-6254</li>
+            <li>Guarda Municipal 75 98252-3409</li>
+            <li>Regulação SESAB Ortopedia 71 3118-8200</li>
+            <li>PA de Pataíba (apenas internet) 75 98277-9280</li>
+            <li>
+              WhatsApp da Unidade{" "}
+              <a
+                href="https://wa.me/5575982524602"
+                target="_blank"
+                rel="noreferrer"
+              >
+                75982524602
+              </a>
+            </li>
             <li>SAMU (Central de Referência Serrinha): 192</li>
             <li>Vigilância Epidemiológica (VIEP):</li>
+            <li>Central de Venenos (CIATox-BA, antigo CIAVE):</li>
           </ul>
         </section>
       </Container>
