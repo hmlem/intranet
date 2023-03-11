@@ -17,8 +17,12 @@ export default [
     url: `${baseUrlDocuments}/partograma.pdf`,
   },
   {
-    title: "APAC",
+    title: "APAC - PDF Vazio",
     url: `${baseUrlDocuments}/apac.pdf`,
+  },
+  {
+    title: "APAC - Google Apresentações Semipreenchido",
+    url: "https://docs.google.com/presentation/d/1w9EP03LGiefGqN5QW0uhk2i7EE0eauHkjkojbrlt-NU/edit?usp=sharing",
   },
   {
     title: "Nota Informativa - Raiva - ",
