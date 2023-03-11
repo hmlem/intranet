@@ -25,6 +25,11 @@ export default [
     url: "https://docs.google.com/presentation/d/1w9EP03LGiefGqN5QW0uhk2i7EE0eauHkjkojbrlt-NU/edit?usp=sharing",
   },
   {
+    title:
+      "Manual - Ventilador Mecânico portátil TAKAOKA Microtak 920 Resgate da UTI móvel",
+    url: "https://drive.google.com/file/d/1tG4JfOE867N3SuANFF6L9ITuK0ZFczuA/view?usp=share_link",
+  },
+  {
     title: "Nota Informativa - Raiva - ",
     url: `${baseUrlDocuments}/nota_tecnica_ms_raiva.pdf`,
   },

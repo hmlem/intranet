@@ -18,7 +18,7 @@ export default [
   },
   {
     title: "Protocolo Vermelho/HPP - Gestante - Hemorragia pós parto",
-    url: "https://www.figma.com/file/ikjHWkKVHk9xLEjydFBsuv/Protocolos-HMLEM?node-id=1%3A689",
+    url: "https://www.figma.com/file/ikjHWkKVHk9xLEjydFBsuv/Protocolos-HMLEM?node-id=0%3A1&t=wRBf5tUOuwqu9VFn-1",
   },
   {
     title: "PALS 2020 (Bradicardia) - Bradicardia na criança",
