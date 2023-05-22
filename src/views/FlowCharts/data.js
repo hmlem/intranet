@@ -21,6 +21,18 @@ export default [
     url: "https://www.figma.com/file/ikjHWkKVHk9xLEjydFBsuv/Protocolos-HMLEM?node-id=0%3A1&t=wRBf5tUOuwqu9VFn-1",
   },
   {
+    title: "Parâmetros de configuração de Ventilação Mecãnica Protetora",
+    url: "https://www.figma.com/file/ikjHWkKVHk9xLEjydFBsuv/Protocolos-HMLEM?type=whiteboard&node-id=0%3A1&t=bpXuchvGVJMa7AHM-1",
+  },
+  {
+    title: "Profilaxia Pós-Exposição (PEP)",
+    url: "https://www.figma.com/file/ikjHWkKVHk9xLEjydFBsuv/Protocolos-HMLEM?type=whiteboard&node-id=0%3A1&t=bpXuchvGVJMa7AHM-1",
+  },
+  {
+    title: "Classificação de Gravidade do TCE",
+    url: "https://ares.unasus.gov.br/acervo/bitstream/ARES/24518/1/PDF%20Livreto_Classifica%C3%A7%C3%A3oGravidadeTCE_03-01-22.pdf",
+  },
+  {
     title: "PALS 2020 (Bradicardia) - Bradicardia na criança",
   },
   {
