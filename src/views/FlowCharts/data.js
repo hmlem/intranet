@@ -13,6 +13,10 @@ export default [
     url: `${baseUrlFlowcharts}/fluxograma_manejo_mokeypok.jpg`,
   },
   {
+    title: "Protocolo de Tratamento da Influenza 2017",
+    url: `https://drive.google.com/file/d/1pecND2HkZAt1jZWibaKgqORBwxt5SakW/view?usp=drive_link`,
+  },
+  {
     title: "Protocolo Raiva/Acidente com animais",
     url: `${baseUrlFlowcharts}/protocolo_profilaxia_raiva_humana.jpg`,
   },

@@ -23,12 +23,32 @@ export default [
     url: `${baseUrlDocuments}/apac.pdf`,
   },
   {
-    title: "APAC - Google Apresentações Semipreenchido",
+    title: "APAC - Semipreenchido",
     url: "https://docs.google.com/presentation/d/1w9EP03LGiefGqN5QW0uhk2i7EE0eauHkjkojbrlt-NU/edit?usp=sharing",
   },
   {
     title: "Rotina dos Técnicos de Enfermagem",
     url: `${baseUrlDocuments}/hmlem_rotina_tecnicos_enfermagem.pdf`,
+  },
+  {
+    title: "Documentos médicos para impressão",
+    url: `https://docs.google.com/presentation/d/19qnFzi5yvRDhl_4XnkFhez9Z3Hk2Dkjw1t7Y741kcRg/edit?usp=sharing`,
+  },
+  {
+    title: "Enfermagem - POP",
+    url: `https://docs.google.com/document/d/1q0nI-ob8DXmoGLPRHXqPefci2yYcqe1a/edit?usp=drive_link&ouid=117387973474242165322&rtpof=true&sd=true`,
+  },
+  {
+    title: "Enfermagem - Enfermagem",
+    url: `https://docs.google.com/document/d/1MW_1PmGqVrJrAa3Anaz94wAPzY4S2Iwf/edit?usp=drive_link&ouid=117387973474242165322&rtpof=true&sd=true`,
+  },
+  {
+    title: "Enfermagem - Checklist do Hospital",
+    url: `https://docs.google.com/spreadsheets/d/1EbfWNkAItzpk-MrfW7bjByg8jkQWvgLM/edit?usp=drive_link&ouid=117387973474242165322&rtpof=true&sd=true`,
+  },
+  {
+    title: "Folha de Identificação no Leito",
+    url: `https://docs.google.com/document/d/1g1WOUtXWDRInvOw6ilNM-ctn6v4NMi_P/edit?usp=drive_link&ouid=117387973474242165322&rtpof=true&sd=true`,
   },
   {
     title: "Prescrição Médica - Profilaxia Pós Exposição (PEP) HIV",
